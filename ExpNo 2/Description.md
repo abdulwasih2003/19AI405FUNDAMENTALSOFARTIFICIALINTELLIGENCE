@@ -136,4 +136,4 @@ G F <BR>
 <hr>
 <h3>Result:</h3>
 <hr>
-<p>Thus,a Graph was constructed and implementation of Breadth First Search for the same graph was done successfully.</p>
+<p>Thus, a Graph was constructed and implementation of Breadth First Search for the same graph was done successfully.</p>
