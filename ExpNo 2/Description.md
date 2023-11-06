@@ -1,6 +1,4 @@
 <h1>ExpNo 2 : Implement Breadth First Search Traversal of a Graph</h1> 
-<h3>Name: R . JOYCE BEULAH</h3>
-<h3>Register Number : 212222230058</h3>
 <H3>Aim:</H3>
 <p>To Implement Breadth First Search Traversal of a Graph using Python 3.</p>
 <h3>Theory:</h3>
@@ -66,7 +64,7 @@ Now, Queue becomes empty, So, terminate these process of iteration.
 <li>Iterate steps 4 and 5 until all nodes get visited, and there are no more unvisited nodes.</li>
 
 </ol>
-# PROGRAM
+<H3>Program:</H3>
 
 ```
 from collections import defaultdict
