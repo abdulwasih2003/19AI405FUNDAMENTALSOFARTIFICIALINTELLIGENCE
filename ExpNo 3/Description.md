@@ -1,6 +1,4 @@
 <h1>ExpNo 3 : Implement A* search algorithm for a Graph</h1> 
-<h3>Name: R . JOYCE BEULAH</h3>
-<h3>Register Number: 212222230058</h3>
 <H3>Aim:</H3>
 <p>To ImplementA * Search algorithm for a Graph using Python 3.</p>
 <H3>Algorithm:</H3>
@@ -51,7 +49,7 @@
 
 ![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/b1377c3f-011a-4c0f-a843-516842ae056a)
 
-# PROGRAM :
+<h3>Program:<h3>
 
 ```
 from collections import defaultdict
