@@ -1,6 +1,4 @@
 <h1>ExpNo 8 : Solve Wumpus World Problem using Python demonstrating Inferences from Propositional Logic</h1> 
-<h3>Name: R . JOYCE BEULAH</h3>
-<h3>Register Number: 212222230058</h3>
 <H3>Aim:</H3>
 <p>
     To solve  Wumpus World Problem using Python demonstrating Inferences from Propositional Logic
