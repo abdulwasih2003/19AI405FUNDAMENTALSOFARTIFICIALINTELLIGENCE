@@ -1,6 +1,4 @@
 <h1>ExpNo 7 : Solve Cryptarithmetic Problem,a CSP(Constraint Satisfaction Problem) using Python</h1> 
-<h3>Name: R . JOYCE BEULAH</h3>
-<h3>Register Number: 212222230058 </h3>
 <H3>Aim:</H3>
 <p>
     To solve Cryptarithmetic Problem,a CSP(Constraint Satisfaction Problem) using Python
