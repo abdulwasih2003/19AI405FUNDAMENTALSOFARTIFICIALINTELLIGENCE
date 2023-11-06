@@ -1,32 +1,46 @@
-## ExpNo 4 : Implement Simple Hill Climbing Algorithm
+<h1>ExpNo 4 : Implement Simple Hill Climbing Algorithm</h1> 
+<h3>Name: R . JOYCE BEULAH</h3>
+<h3>Register Number: 212222230058</h3>
+<H3>Aim:</H3>
+<p>Implement Simple Hill Climbing Algorithm and Generate a String by Mutating a Single Character at each iteration </p>
+<h2> Theory: </h2>
+<p>Hill climbing is a variant of Generate and test in which feedback from test procedure is used to help the generator decide which direction to move in search space.
+Feedback is provided in terms of heuristic function
+</p>
 
-## Aim:
-Implement Simple Hill Climbing Algorithm and Generate a String by Mutating a Single Character at each iteration.
 
-## Theory:
-Hill climbing is a variant of Generate and test in which feedback from the test procedure is used to help the generator decide which direction to move in the search space. Feedback is provided in terms of a heuristic function.
+<h2>Algorithm:</h2>
+<p>
+<ol>
+ <li> Evaluate the initial state.If it is a goal state then return it and quit. Otherwise, continue with initial state as current state.</li> 
+<li>Loop until a solution is found or there are no new operators left to be applied in current state:
+<ul><li>Select an operator that has not yet been applied to the current state and apply it to produce a new state</li>
+<li>Evaluate the new state:
+  <ul>
+<li>if it is a goal state, then return it and quit</li>
+<li>if it is not a goal state but better than current state then make new state as current state</li>
+<li>if it is not better than current state then continue in the loop</li>
+    </ul>
+</li>
+</ul>
+</li>
+</ol>
 
-## Algorithm:
-1. Evaluate the initial state. If it is a goal state, then return it and quit. Otherwise, continue with the initial state as the current state.
-2. Loop until a solution is found or there are no new operators left to be applied in the current state:
-   - Select an operator that has not yet been applied to the current state and apply it to produce a new state.
-   - Evaluate the new state:
-     - If it is a goal state, then return it and quit.
-     - If it is not a goal state but better than the current state, then make the new state the current state.
-     - If it is not better than the current state, then continue in the loop.
+</p>
+<hr>
+<h3> Steps Applied:</h3>
+<h3>Step-1</h3>
+<p> Generate Random String of the length equal to the given String</p>
+<h3>Step-2</h3>
+<p>Mutate the randomized string each character at a time</p>
+<h3>Step-3</h3>
+<p> Evaluate the fitness function or Heuristic Function</p>
+<h3>Step-4:</h3>
+<p> Lopp Step -2 and Step-3  until we achieve the score to be Zero to achieve Global Minima.</p>
 
-## Steps Applied:
-### Step-1
-Generate a Random String of the same length as the given String.
-### Step-2
-Mutate the randomized string one character at a time.
-### Step-3
-Evaluate the fitness function or Heuristic Function.
-### Step-4
-Loop through Step-2 and Step-3 until we achieve a score of Zero to reach the Global Minima.
+# PROGRAM : 
 
-## Program
-```python
+```
 import random
 import string
 def generate_random_solution(answer):
@@ -46,7 +60,7 @@ def mutate_solution(solution):
     solution[ind]=random.choice(string.printable)
     return solution
 def SimpleHillClimbing():
-    answer="DEEP LEARNING"
+    answer="Artificial Intelligence"
     best=generate_random_solution(answer)
     best_score=evaluate(best,answer)
     while True:
@@ -58,18 +72,18 @@ def SimpleHillClimbing():
         if score<best_score:
             best=new_solution
             best_score=score
-answer="DEEP LEARNING"
-print(generate_random_solution(answer))
-solution=generate_random_solution(answer)
-print(evaluate(solution,answer))
+
 SimpleHillClimbing()
 ```
-## Output 
-String : DEEP LEARNING
 
+<hr>
+<h2>Sample Input and Output</h2>
+<h2>Sample String:</h2> Artificial Intelligence
+<h2>Output:</h2>
 
+![image](https://github.com/JoyceBeulah/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/118343698/466b04b5-1c7c-49d1-af7e-b39cce21a74a)
+<hr>
 
-![278790368-f0333906-3876-4db4-8b49-4b5b6c605433](https://github.com/Augustine0306/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/119404460/3e4460f3-5f22-495a-9e28-3f3d9a7fd560)
-
-## Result
-The Simple Hill Climbing Algorithm successfully mutated a random string to optimize and generate the target string 'DEEP LEARNING' by iteratively improving the solution.
+<h3>Result:</h3>
+<hr>
+<p>Thus the program SimpleHillClimbing is successfully implemented.</p>

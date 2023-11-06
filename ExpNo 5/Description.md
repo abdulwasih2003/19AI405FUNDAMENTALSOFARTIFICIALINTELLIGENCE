@@ -1,5 +1,6 @@
 <h1>ExpNo 5 : Implement Minimax Search Algorithm for a Simple TIC-TAC-TOE game</h1> 
-
+<h3>Name: R . JOYCE BEULAH</h3>
+<h3>Register Number: 212222230058</h3>
 <H3>Aim:</H3>
 <p>
     Implement Minimax Search Algorithm for a Simple TIC-TAC-TOE game
@@ -61,7 +62,7 @@ Let's walk through the algorithm's execution with the full move tree, and show w
 
 Here is the function for scoring the game:
 
-# Player is the turn taking player
+# @player is the turn taking player
 def score(game)
     if game.win?(@player)
         return 10
@@ -101,12 +102,9 @@ def minimax(game)
     end
 end
 
-<hr>
+# PROGRAM:
 
-
-<H3>Program:</H3
-                
-```python
+```
 import time
 
 class Game:
@@ -299,21 +297,15 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+<hr>
+<h2>Sample Input and Output</h2>
 
-<h2>Sample Input </h2>
-
-![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/6b668685-8bcc-43c5-b5c2-ddd43f3da84a)
-![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/8ca1b08a-8312-4ef5-89df-e69b7b2c3fa2)
-![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/dc06427a-d4ce-43a1-95bd-9acfaefac323)
-![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/a8a27e2a-6fd4-46a2-afb5-6d27b8556702)
-![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/a2acb6a1-ed8e-42e5-8968-fe805e4b0255)
+![image](https://github.com/JoyceBeulah/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/118343698/cfc8890e-0f74-49a1-84cc-f0a284a314d7)
+![image](https://github.com/JoyceBeulah/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/118343698/51efc09a-4969-44dd-aa64-c18ce4fb8af3)
+![image](https://github.com/JoyceBeulah/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/118343698/34bba1de-aebc-413c-ad0f-4f85417b6d70)
+![image](https://github.com/JoyceBeulah/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/118343698/9eab2f3c-5119-4582-83fd-c91b78340999)
+![image](https://github.com/JoyceBeulah/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/118343698/2683de08-4091-47cb-b1d3-a0c1827e4b81)
 
 <hr>
-
-<h2>Sample Output</h2>
-
-![278790527-b3a04ef7-435a-4170-8d3b-46e445d41052](https://github.com/Augustine0306/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/119404460/6dc15c81-6908-47b7-b43f-11f8f19fcb95)
-![278790538-88da2d57-a224-48bb-a6bf-90b8671568bf](https://github.com/Augustine0306/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/119404460/02165c18-0004-41e5-99f5-da41a3a2aca0)
-
 <h2>Result:</h2>
 <p>Thus,Implementation of  Minimax Search Algorithm for a Simple TIC-TAC-TOE game wasa done successfully.</p>
